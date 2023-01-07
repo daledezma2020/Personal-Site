@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 //import SignUp from './components/pages/SignUp';
 import Home from './components/pages/Home';
 import Resume from './components/pages/Resume';
-import Youtube from './components/pages/Youtube';
+import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 import OtherWork from './components/pages/OtherWork';
@@ -25,9 +25,6 @@ function App() {
             <Route path='/Resume'exact>
               <Resume/>
             </Route>
-            <Route path='/Youtube'exact>
-              <Youtube/>
-            </Route>
             <Route path='/Contact'exact>
               <Contact/>
             </Route>
@@ -36,6 +33,9 @@ function App() {
             </Route>
             <Route path='/OtherWork'exact>
               <OtherWork/>
+            </Route>
+            <Route path='/About'exact>
+              <About/>
             </Route>
         </Switch>
       </Router>

@@ -6,9 +6,9 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className = 'hero-container'>
-      <div className="fullscreen-video-wrap" style={{ display: 'flex', justifyContent: 'center', height: '100%' }} dangerouslySetInnerHTML={{ __html: `
+      <div className="fullscreen-video-wrap" style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
       <video src="/videos/DanClass.mp4" autoPlay loop muted />
-      ` }}></div>
+      </div>
       <h1>Dan Ledezma</h1>
       <p>Welcome to my website</p>
       <div className="hero-btns">
@@ -16,7 +16,7 @@ function HeroSection() {
         className = 'btns' 
         buttonStyle='btn--outline'
         buttonSize ='btn--large'
-        buttonLink = '/Projects'
+        ebLink = 'https://github.com/daledezma2020'
         >
             Projects <i class="fa-solid fa-folder"></i>
         </Button>

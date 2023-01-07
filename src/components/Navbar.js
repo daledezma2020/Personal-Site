@@ -48,11 +48,11 @@ function Navbar() {
               </ExternalLink>
             </li>
             <li className='nav-item'>
-            <ExternalLink href="https://youtu.be/U8etGL4muhU" className = 'nav-links' onClick={closeMobileMenu}>
-              Youtube
-              </ExternalLink>
+            <Link 
+              to='/About' className='nav-links' onClick={closeMobileMenu}>
+                About Me
+              </Link>
             </li>
-
             <li>
               <Link
                 to='/Contact'

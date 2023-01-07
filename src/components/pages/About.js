@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../App.css';
 
-function Youtube() {
+function About() {
   return (
     <div>
-      Youtube
+      Im Dan
     </div>
   );
 }
 
-export default Youtube; 
+export default About; 
