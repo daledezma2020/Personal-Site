@@ -6,7 +6,9 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className = 'hero-container'>
+      <div className="fullscreen-video-wrap" style={{ display: 'flex', justifyContent: 'center', height: '100%' }} dangerouslySetInnerHTML={{ __html: `
       <video src="/videos/DanClass.mp4" autoPlay loop muted />
+      ` }}></div>
       <h1>Dan Ledezma</h1>
       <p>Welcome to my website</p>
       <div className="hero-btns">
