@@ -40,8 +40,12 @@ video {
     margin: 6px;
   }
   
-  .fa-play-circle {
+  .fa-folder {
     margin-left: 4px;
+  }
+
+  .fa-github {
+    margin-left: 4px
   }
   
   @media screen and (max-width: 960px) {
@@ -70,4 +74,5 @@ video {
       width: 100%;
     }
   }
+
   

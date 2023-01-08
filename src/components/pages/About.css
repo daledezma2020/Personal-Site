@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+img {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+  }
+
+.aboutBody{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+    object-fit: contain;
+}
+
+.profilePic{
+    margin-top: 10px;
+    height: 10%;
+    width: 10%;
+}
+
+.aboutBody > p{
+    text-align: center;
+    width: 50%;
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.aboutBody > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin-top: 0px;
+  }

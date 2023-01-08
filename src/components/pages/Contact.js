@@ -6,9 +6,15 @@ import '../../App.css';
 function Contact() {
   return (
     <>
-      Im off the grid!!!!!!
-      {/* <Cards />
-      <Footer /> */}
+    <div className = 'aboutBody'>
+      <h1>
+        Reach me at:
+      </h1>
+      <p>
+      daledezma2020@gmail.com
+      </p>
+      
+    </div>
     </>
   );
 }

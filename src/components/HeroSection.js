@@ -12,21 +12,21 @@ function HeroSection() {
       <h1>Dan Ledezma</h1>
       <p>Welcome to my website</p>
       <div className="hero-btns">
-        <Button 
+        <Button id = 'Projects-Button'
         className = 'btns' 
         buttonStyle='btn--outline'
         buttonSize ='btn--large'
-        ebLink = 'https://github.com/daledezma2020'
+        buttonLink = '/Projects'
         >
-            Projects <i class="fa-solid fa-folder"></i>
+            Projects <i className="fa-solid fa-folder"></i>
         </Button>
         <Button 
         className = 'btns' 
         buttonStyle='btn--primary'
         buttonSize ='btn--large'
-        buttonLink = '/OtherWork'
+        ebLink = 'https://github.com/daledezma2020'
         >
-            Other Work
+            Github <i className="fa-brands fa-github"></i>
         </Button>
       </div>
     </div>
