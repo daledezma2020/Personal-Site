@@ -6,7 +6,7 @@ function About() {
   return (
     <>
     <div className = 'aboutBody'>
-    <img src = '/images/Senior.jpg' className = 'profilePic'/>
+    <img src = '/images/Senior.jpg' alt = "Me in high school!" className = 'profilePic'/>
       <h1>
         About me
       </h1>

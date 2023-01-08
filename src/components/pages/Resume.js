@@ -15,7 +15,7 @@ function Resume() {
 
   return (
     <div className = 'container'>
-      <img src = '/images/2023Resume-1.png' className = 'resumePic'/>
+      <img src = '/images/2023Resume-1.png' alt = "My resume" className = 'resumePic'/>
       {/* <Document file="2023Resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={pageNumber} />
       </Document>
