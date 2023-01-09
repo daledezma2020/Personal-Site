@@ -6,10 +6,18 @@ import '../../App.css';
 function Projects() {
   return (
     <>
-      Projects
-      {/* <Cards />
-      <Footer /> */}
-    </>
+  <div className = 'aboutBody'>
+    <h1>
+      Other Work:
+    </h1>
+    <p className = "comingsoon">
+    coming soon
+    </p>
+    <p>
+    detailed project descriptions will be listed here
+    </p>
+  </div>
+  </>
   );
 }
 
