@@ -2,10 +2,10 @@ body{
     background-color: rgb(31, 31, 31);
 }
 
-img {
+/* img {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
-  }
+  } */
 
 .aboutBody{
     height: 100%;
@@ -22,6 +22,8 @@ img {
     margin-top: 10px;
     height: 10%;
     width: 10%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
 }
 
 .aboutBody > p{
@@ -39,3 +41,37 @@ img {
     font-size: 60px;
     margin-top: 0px;
   }
+
+@media screen and (max-width: 960px) {
+    .profilePic{
+        margin-top: 10px;
+        height: 15%;
+        width: 15%;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 15px;
+    }
+    .aboutBody > h1 {
+        font-size: 50px;
+    }
+    .aboutBody > p {
+        font-size: 18px;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profilePic{
+        margin-top: 10px;
+        height: 20%;
+        width: 20%;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 15px;
+    }
+    .aboutBody > h1 {
+        font-size: 40px;
+    }
+    .aboutBody > p {
+        font-size: 14px;
+        width: 85%;
+    }
+}
