@@ -5,6 +5,14 @@ video {
     position: fixed;
     z-index: -1;
   }
+
+  .bgImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
   
   .hero-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
@@ -19,15 +27,17 @@ video {
   }
   
   .hero-container > h1 {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 100px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin-top: -100px;
   }
   
   .hero-container > p {
     margin-top: 8px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 32px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
