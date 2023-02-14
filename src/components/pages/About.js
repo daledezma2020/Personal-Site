@@ -6,10 +6,11 @@ function About() {
   return (
     <>
     <div className = 'aboutBody'>
-    <img src = '/images/Senior.jpg' alt = "Me in high school!" className = 'profilePic'/>
       <h1>
         About me
       </h1>
+      <img src = '/images/Senior_square.jpg' alt = "Me in high school!" className = 'profilePic'/>
+      
       <p>
       Starting out with technology at a young age, I built a computer with the help of my dad at 11 years old and from there my interest in technology only grew. 
       Copying code from Youtube tutorials as a 12 year old made me feel like I was destined to design the next big video game title in a matter of years before finally realizing

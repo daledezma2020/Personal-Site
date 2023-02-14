@@ -10,8 +10,9 @@ function HeroSection() {
       {/* <video src="/videos/DanClass.mp4" autoPlay loop muted /> */}
       <img src="/images/Mountains.jpg" alt = 'mountains' className = 'bgImg'/>
       </div>
-      <h1>Dan Ledezma</h1>
-      <p>Welcome to my website!</p>
+      <div className = "center-box">
+      <h1>Welcome!</h1>
+      <p>This site is a work in progress, but feel free to view what I have developed already.</p>
       <div className="hero-btns">
         <Button id = 'Projects-Button'
         className = 'btns' 
@@ -29,6 +30,7 @@ function HeroSection() {
         >
             Github <i className="fa-brands fa-github"></i>
         </Button>
+      </div>
       </div>
     </div>
   )

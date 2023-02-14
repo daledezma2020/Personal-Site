@@ -19,11 +19,11 @@ body{
 }
 
 .profilePic{
-    margin-top: 10px;
-    height: 10%;
-    width: 10%;
+    margin-top: 3px;
+    height: auto;
+    width: 20%;
     border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
+    border-radius: 4px;
 }
 
 .aboutBody > p{

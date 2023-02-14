@@ -12,6 +12,7 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 import OtherWork from './components/pages/OtherWork';
+import Cards from './components/pages/Cards';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
             </Route>
             <Route path='/About'exact>
               <About/>
+            </Route>
+            <Route path = '/Cards' exact>
+              <Cards/>
             </Route>
         </Switch>
       </Router>
