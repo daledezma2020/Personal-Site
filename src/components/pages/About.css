@@ -32,8 +32,8 @@ body{
     margin-left:auto;
     margin-right:auto;
     justify-content: center;
-    width:20px;
-    height: auto;
+    width:auto;
+    height: 90px;
     color: white;
 }
 .socialGrid > img{
