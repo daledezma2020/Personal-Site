@@ -9,8 +9,11 @@ function About() {
       <h1>
         About me
       </h1>
-      <img src = '/images/Senior_square.jpg' alt = "Me in high school!" className = 'profilePic'/>
-      
+      <div className = "socialGrid">
+        <a href="https://www.instagram.com/danlede/"> <i class="fa-brands fa-instagram"></i> </a>
+        <img src = '/images/Senior_square.jpg' alt = "Me in high school!" className = 'profilePic'/>
+        <a href="https://github.com/daledezma2020"> <i className="fa-brands fa-square-github"></i> </a>
+      </div>
       <p>
       Starting out with technology at a young age, I built a computer with the help of my dad at 11 years old and from there my interest in technology only grew. 
       Copying code from Youtube tutorials as a 12 year old made me feel like I was destined to design the next big video game title in a matter of years before finally realizing

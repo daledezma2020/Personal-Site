@@ -18,6 +18,37 @@ body{
     object-fit: contain;
 }
 
+.socialGrid{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    font-size: 70px;
+}
+
+.socialGrid > a{
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: center;
+    width:20px;
+    height: auto;
+    color: white;
+}
+.socialGrid > img{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    width: 250px;
+}
+
+.fa-brands fa-square-github{
+    width:50px;
+}
+
 .profilePic{
     margin-top: 3px;
     height: auto;
@@ -45,7 +76,7 @@ body{
 @media screen and (max-width: 960px) {
     .profilePic{
         margin-top: 10px;
-        height: 15%;
+        height: auto;
         width: 15%;
         border: 2px solid rgb(255, 255, 255);
         border-radius: 15px;

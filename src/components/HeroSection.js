@@ -8,7 +8,7 @@ function HeroSection() {
     <div className = 'hero-container'>
       <div className="fullscreen-video-wrap" style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
       {/* <video src="/videos/DanClass.mp4" autoPlay loop muted /> */}
-      <img src="/images/Mountains.jpg" alt = 'mountains' className = 'bgImg'/>
+      <img src="/images/Mountains_2.jpg" alt = 'mountains' className = 'bgImg'/>
       </div>
       <div className = "center-box">
       <h1>Welcome!</h1>
