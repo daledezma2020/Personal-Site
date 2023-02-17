@@ -1,0 +1,11 @@
+To Do:
+    *Finish implementing the card matching game
+        *fix bug where cards are random with each flip(need to rework how id is used/how they get assigned)
+        *add reset button
+        *add a preview of the game to projects section with "play" button that leads to the page with the game
+    *Create dynamic background(video)
+        *create video where background of picture changes but I stay there, so everything behind me is periodically changing
+        *add a toggle "play video" button somewhere that switches to "stop video" when pressed
+*Fix mobile support/resolution change friendliness 
+*Expand contact section, create either embedded email sender or link to send me an email
+*make resume page prettier

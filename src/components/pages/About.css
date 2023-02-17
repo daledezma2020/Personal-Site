@@ -25,6 +25,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    width: 50%;
     font-size: 70px;
 }
 
@@ -33,8 +34,9 @@ body{
     margin-right:auto;
     justify-content: center;
     width:auto;
-    height: 90px;
     color: white;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 .socialGrid > img{
     justify-content: center;
@@ -43,6 +45,8 @@ body{
     margin-left:auto;
     margin-right:auto;
     width: 250px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .fa-brands fa-square-github{
@@ -79,7 +83,7 @@ body{
         height: auto;
         width: 15%;
         border: 2px solid rgb(255, 255, 255);
-        border-radius: 15px;
+        border-radius: 4px;
     }
     .aboutBody > h1 {
         font-size: 50px;
@@ -91,13 +95,18 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .profilePic{
-        margin-top: 10px;
-        height: 20%;
-        width: 20%;
+    .socialGrid > img{
+        height: auto;
+        width: 100%;
         border: 2px solid rgb(255, 255, 255);
-        border-radius: 15px;
+        border-radius: 4px;
     }
+
+    .socialGrid{
+        font-size: 35px;
+        width: 82%;
+    }
+
     .aboutBody > h1 {
         font-size: 40px;
     }
