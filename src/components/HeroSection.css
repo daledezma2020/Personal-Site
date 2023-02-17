@@ -125,11 +125,18 @@ video {
 @media screen and (max-width: 768px) {
   .center-box > h1 {
     font-size: 18pt;
-    width:50%;
   }
 
   .center-box > p {
-    font-size: 30px;
+    font-size: 11pt;
+  }
+
+  .hero-btns {
+    margin-top: 0px;
+  }
+
+  .hero-btns .btn {
+    margin: 3px;
   }
 
   .btn-mobile {
@@ -137,8 +144,16 @@ video {
     text-decoration: none;
   }
 
+  .btn--large{
+    padding: 0px;
+  }
+
   .btn {
-    width: 100%;
+    width: 100px;
+    height:25px;
+    font-size:8pt;
+    margin-bottom: auto;
+    margin-top: auto;
   }
 }
 
