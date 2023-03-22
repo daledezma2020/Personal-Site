@@ -9,3 +9,4 @@ To Do:
 *Fix mobile support/resolution change friendliness 
 *Expand contact section, create either embedded email sender or link to send me an email
 *make resume page prettier
+*Dark Mode Toggle Button
