@@ -12,16 +12,16 @@ function HeroSection() {
       </div>
       <div className = "center-box">
       <h1>Welcome!</h1>
-      <p>This site is a work in progress, but feel free to view what I have developed already.</p>
+      <p>Welcome to my website, a demonstration and showcase of my skills, achievements and hobbies.</p>
       <div className="hero-btns">
-        <Button id = 'Projects-Button'
+        {/* <Button id = 'Projects-Button'
         className = 'btns' 
         buttonStyle='btn--outline'
         buttonSize ='btn--large'
         buttonLink = '/Projects'
         >
             Projects <i className="fa-solid fa-folder"></i>
-        </Button>
+        </Button> */}
         <Button 
         className = 'btns' 
         buttonStyle='btn--primary'

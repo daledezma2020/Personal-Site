@@ -11,7 +11,7 @@ function About() {
       </h1>
       <div className = "socialGrid">
         <a href="https://www.instagram.com/danlede/" target="_blank" rel="noreferrer"> <i class="fa-brands fa-instagram"></i> </a>
-        <img src = '/images/Senior_square.jpg' alt = "Me in high school!" className = 'profilePic'/>
+        <img src = '/images/Madrid_colors.JPG' alt = "Me in high school!" className = 'profilePic'/>
         <a href="https://github.com/daledezma2020" target="_blank" rel="noreferrer"> <i className="fa-brands fa-square-github"></i> </a>
       </div>
       <p>

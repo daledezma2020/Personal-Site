@@ -9,7 +9,7 @@ function Resume() {
 
   return (
       <div className = 'container'>
-      <Document file="./2023_Resume.pdf" className = "pdfFile">
+      <Document file="./dledezma_resume_8-30-23.pdf" className = "pdfFile">
         <Page pageNumber={pageNumber} />
       </Document>
     </div>
