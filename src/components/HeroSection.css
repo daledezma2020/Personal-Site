@@ -17,12 +17,10 @@ video {
 }
 
 .hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
   height: 325px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
   object-fit: contain;
 }
   
@@ -60,9 +58,8 @@ video {
 }
 
 .center-box{
-  margin-left: 7%;
+  margin-left: 27%;
   margin-top:35px;
-  border-radius: 3px;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -83,23 +80,19 @@ video {
 
 .center-box > h1 {
   font-family: 'Noto Sans KR', sans-serif;
-  color: rgb(255, 255, 255);
   font-size: 100px;
-  /* -webkit-text-stroke: 2px black; */
+  color: white;
   margin-top: 0px;
   border-bottom: 2px solid white;
   margin-left:auto;
   margin-right:auto;
-  width: 70%;
+  /* width: 70%; */
 }
 
 @media screen and (max-width: 1366px) {
 
   .center-box {
     align-items: center;
-    background-color: rgba(82,138,202,.65);
-    border: 4px solid #fff;
-    border-radius: 3px;
     justify-content: center;
     margin-top: 35px;
     text-align: center;
@@ -165,6 +158,7 @@ video {
 }
 
 .bottomSection{
+  display:flex;
   background-color: rgba(49,62,80);
   padding-bottom: 85px;
 }
@@ -173,8 +167,8 @@ video {
   width: 250px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   position: absolute; /* Set position to absolute */
-  top: 45%; /* Adjust this value to control the vertical position */
-  left: 65%; /* Adjust the left value to control horizontal position */
+  top: 47%; /* Adjust this value to control the vertical position */
+  left: 73%; /* Adjust the left value to control horizontal position */
   transform: translate(0, -50%); /* Center vertically using transform */
 }
 
@@ -189,7 +183,7 @@ video {
   width: 55%;
   padding-top:35px;
   margin-top: 1%;
-  margin-left:4%;
+  margin-left:7%;
   color: rgb(255, 255, 255);
   /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
   font-size: 17px;

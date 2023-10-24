@@ -22,9 +22,11 @@ function About() {
        I want to incorporate my creative thinking from music into my software development work one way or another.
       </p>
       <p>
-      Currently I am seeking employment in either research or internships involving software development. I am really interested in front end web development, however after 
-      having taken a wide variety of classes at the University of Rochester in various languages of low and high level, I know that I can get important skills from almost any 
-      sort of coding opportunity.
+      Now as I approach the end of my undergraduate studies, I am hoping to work as a junior developer at a company that 
+      matches the skills I have to offer. I am currently very interested in web development. In two very recent endeavours
+      I began teaching myself React.js and spent a summer using Vue.js alongside several aws services to develop web apps at
+      a web consulting firm.
+
       </p>
       
     </div>
