@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 body{
     background-color: rgb(31, 31, 31);
 }
@@ -67,11 +70,11 @@ body{
     margin-top: 8px;
     color: rgb(255, 255, 255);
     font-size: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .aboutBody > h1 {
+    font-family: 'Noto Sans KR', sans-serif;
     color: rgb(255, 255, 255);
     font-size: 60px;
     margin-top: 0px;
@@ -86,9 +89,11 @@ body{
         border-radius: 4px;
     }
     .aboutBody > h1 {
+        font-family: 'Noto Sans KR', sans-serif;
         font-size: 50px;
     }
     .aboutBody > p {
+        font-family: 'Quicksand', sans-serif;
         font-size: 18px;
         width: 75%;
     }
@@ -108,9 +113,11 @@ body{
     }
 
     .aboutBody > h1 {
+        font-family: 'Noto Sans KR', sans-serif;
         font-size: 40px;
     }
     .aboutBody > p {
+        font-family: 'Quicksand', sans-serif;
         font-size: 14px;
         width: 85%;
     }
