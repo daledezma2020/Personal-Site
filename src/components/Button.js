@@ -8,7 +8,7 @@ const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 const SIZES = ['btn--medium', 'btn--large'];
 
 const LINKS = ['/Home','/Resume','/Youtube', '/Contact','/Projects','/OtherWork'];
-const ELINKS = ['https://github.com/daledezma2020']
+const ELINKS = ['https://github.com/daledezma2020','mailto:daledezma2020@gmail.com?subject=Contact%20Me&body=Say%20Something']
 
 export const Button = ({
   children,

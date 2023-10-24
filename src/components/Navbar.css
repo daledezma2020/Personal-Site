@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .navbar-container {
@@ -19,6 +20,7 @@
 }
 
 .navbar-logo {
+  font-family: 'Quicksand', sans-serif;
   color: #fff;
   justify-self: start;
   margin-left: 20px;
@@ -56,6 +58,7 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .nav-links:hover {
@@ -114,6 +117,7 @@
   }
 
   .navbar-logo {
+    font-family: 'Quicksand', sans-serif;
     position: absolute;
     top: 0;
     left: 0;

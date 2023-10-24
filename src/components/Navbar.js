@@ -63,7 +63,9 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' buttonLink = '/Contact'>
+          {button && <Button 
+          buttonStyle='btn--outline' 
+          ebLink = 'mailto:daledezma2020@gmail.com?subject=Contact%20Me&body=Say%20Something'>
             Contact
             </Button>}
         </div>

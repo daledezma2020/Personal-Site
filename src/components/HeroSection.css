@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
 video {
     object-fit: cover;
     width: 100%;
@@ -27,6 +29,7 @@ video {
 .hero-container > h1 {
   color: rgb(255, 255, 255);
   font-size: 100px;
+  font-family: 'Noto Sans KR', sans-serif;
   -webkit-text-stroke: 2px black;
 }
 
@@ -37,12 +40,11 @@ video {
   color: rgb(255, 255, 255);
   -webkit-text-stroke: 1px rgb(0, 0, 0);
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .hero-btns {
-  margin-top: 32px;
+  margin-top: 10px;
 }
 
 .hero-btns .btn {
@@ -59,14 +61,13 @@ video {
 
 .center-box{
   margin-left: 7%;
-  margin-top:5px;
-  background-color: rgba(82,138,202,0.65);
-  border: solid white 4px;
+  margin-top:35px;
   border-radius: 3px;
   justify-content: center;
   text-align: center;
   align-items: center;
-  width:45%
+  width:45%;
+  padding-bottom:35px;
 }
 
 .center-box > p {
@@ -77,11 +78,11 @@ video {
   color: rgb(255, 255, 255);
   /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
   font-size: 23px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .center-box > h1 {
+  font-family: 'Noto Sans KR', sans-serif;
   color: rgb(255, 255, 255);
   font-size: 100px;
   /* -webkit-text-stroke: 2px black; */
@@ -100,7 +101,7 @@ video {
     border: 4px solid #fff;
     border-radius: 3px;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 35px;
     text-align: center;
     width: 45%;
   }
@@ -157,3 +158,40 @@ video {
   }
 }
 
+.topSection{
+  display: flex;
+  background-color: rgba(82,138,202,.65);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+.bottomSection{
+  background-color: rgba(49,62,80);
+  padding-bottom: 85px;
+}
+
+.showCase{
+  width: 250px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  position: absolute; /* Set position to absolute */
+  top: 45%; /* Adjust this value to control the vertical position */
+  left: 65%; /* Adjust the left value to control horizontal position */
+  transform: translate(0, -50%); /* Center vertically using transform */
+}
+
+.textStrip{
+  /* background-color: rgba(26, 23, 23, 0.5); */
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.textStrip > p{
+  text-align:center;
+  width: 55%;
+  padding-top:35px;
+  margin-top: 1%;
+  margin-left:4%;
+  color: rgb(255, 255, 255);
+  /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+  font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
+}
