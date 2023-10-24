@@ -24,8 +24,8 @@ function HeroSection() {
           </div>
         </div>
         <div className = "rightHalf">
-          <img src = "/images/Chinatown_portrait.jpeg" className = "showCase" alt = "showcase"/>
         </div>
+        <img src = "/images/Chinatown_portrait.jpeg" className = "showCase" alt = "showcase"/>
       </div>
       <div className = "bottomSection">
         <div className = "leftHalf">
