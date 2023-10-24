@@ -33,7 +33,7 @@ function HeroSection() {
             </Button>
           </div>
         </div>
-          <img src = "/images/Chinatown_portrait.jpeg" className = "showCase"/>
+          <img src = "/images/Chinatown_portrait.jpeg" className = "showCase" alt = "showcase"/>
       </div>
       <div className = "bottomSection">
           <div className = "textStrip">
