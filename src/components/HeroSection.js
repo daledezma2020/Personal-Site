@@ -7,10 +7,9 @@ function HeroSection() {
   return (
     <div className = 'hero-container'>
       <div className = "topSection">
-        <div className = "leftHalf">
           <div className = "center-box">
-          <h1>Welcome!</h1>
-          <p>Welcome to my website, a demonstration and showcase of my skills, achievements and hobbies.</p>
+            <h1>Welcome!</h1>
+            <p>Welcome to my website, a demonstration and showcase of my skills, achievements and hobbies.</p>
             <div className="hero-btns">
               <Button 
               className = 'btns' 
@@ -22,13 +21,9 @@ function HeroSection() {
               </Button>
             </div>
           </div>
-        </div>
-        <div className = "rightHalf">
-        </div>
         <img src = "/images/Chinatown_portrait.jpeg" className = "showCase" alt = "showcase"/>
       </div>
       <div className = "bottomSection">
-        <div className = "leftHalf">
           <div className = "textStrip">
             <p>
             Currently I am seeking employment as a new graduate software developer. 
@@ -38,10 +33,6 @@ function HeroSection() {
             from almost any sort of coding opportunity.
             </p>
           </div>
-        </div>
-        <div className = "rightHalf">
-
-        </div>
       </div>
     </div>
   )
